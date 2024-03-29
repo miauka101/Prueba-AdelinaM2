@@ -1,0 +1,77 @@
+.navbar{
+    background-color: transparent;/*navbar transparente*/
+}
+
+.logo {
+    width: 30px; /*ancho máximo del logo */
+    height: auto; /*altura automática */
+  }
+
+  .navbar-brand {
+    display: inline-flex;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'Oxygen';
+    margin-top: 0px;
+
+}
+
+
+.icono-fondo {
+    background-color: #f7d4af; /*color fondo del rectangulo */
+    border-radius: 10px; /*borde redondeado */
+    font-size: 2em;
+    padding: 10px; /*espacio fondo icono */
+    color: black;
+}
+
+
+#destacados .card-img-top {
+    height: 15em; /*altura del contenedor con tamaño relativo vw  */
+    object-fit: cover; /*llena el contenedor manteniendo la relación */
+}
+
+.card-body{
+    background-color: #f7d4af;
+}
+
+
+.contacto-info{
+    margin-top: 4em; /*m superior */
+    margin-bottom: 4em; /*m inferior */
+    margin-left: 7em; /*m izquierdo */
+    margin-right: 7em; /*m derecho */
+}
+
+.btn-custom{
+    background-color: #f7d4af; /*color fondo de boton enviar */
+}
+
+.btn-info:hover{
+    background-color: #5c4934;      
+}
+
+
+.btn-info:active{
+    background-color: #f7d4af;
+}
+
+footer{
+    color: #ffffff;
+    padding: 1em;
+    background-color: #f7d4af;
+    display: flex;
+    align-items: center; /*alinea verticalmente */
+}
+
+.viaje{
+    margin-left: 10em; /*a un espacio de la izq */
+}
+
+.redes-sociales{
+    margin-right: 10em; /*a un espacio de la der */
+}
+
